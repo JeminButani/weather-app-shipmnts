@@ -33,7 +33,7 @@ const Home = () => {
   };
   return (
     <>
-        <div className=' m-auto  flex flex-col items-center justify-center h-[20%] w-full border-2 '>
+        <div className=' m-auto  flex flex-col items-center justify-center h-[20%] w-full  '>
         <div className="wrap w-[50%]">
         <div className="bg-white  flex justify-between rounded-md">
           <input
@@ -56,7 +56,7 @@ const Home = () => {
         </div>
       </div>
         </div>
-      <div className=' m-auto mt-28 flex flex-col items-center justify-center h-[50%] w-1/2 border-2 '>
+      <div className=' m-auto mt-10 flex flex-col items-center justify-center h-[60%] w-1/2 rounded-lg '>
         <WeatherCard tempInfo={data} />
       </div>
     </>
